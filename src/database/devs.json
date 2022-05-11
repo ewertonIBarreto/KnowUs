@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "name": "Jessica Castro",
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4D03AQEQNVgXMdYe0Q/profile-displayphoto-shrink_400_400/0/1635362963151?e=1655337600&v=beta&t=f85ZgZtRsb2gFuhR3R29unsOnlxD4WoujEkXZCdt_9E",
+    "age": 24,
+    "cep": "20750040",
+    "skills": ["Front-end", "Back-end"],
+    "jobs": [
+      {
+        "companyName": "Storm Group - Security and Defense",
+        "position": "Full Stack Developer - Pleno",
+        "startDate": "1596931200000",
+        "endDate": null,
+        "type": "Full time"
+      },
+      {
+        "companyName": "MM12 - Loyalty Marketing",
+        "position": "Full Stack Developer - Júnior",
+        "startDate": "1564617600000",
+        "endDate": "10/02/2022",
+        "type": "Full time"
+      }
+    ],
+    "studies": [
+      {
+        "companyName": "FIAP - Faculdade de Informática e Administração Paulista",
+        "subject": "Sistemas para Internet"
+      },
+      {
+        "companyName": "Centro Universitário Carioca - Unicarioca",
+        "subject": "Ciência da Computação"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ivin Rodrigues",
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4D03AQHg1RrzXrZ7mw/profile-displayphoto-shrink_200_200/0/1612056394578?e=1655337600&v=beta&t=_PYvaQN9cx2fIvmG9Ox9CVGWP4Eg7QItD5_NlEYClP4",
+    "age": 21,
+    "cep": "01315000",
+    "skills": ["Front-end", "Design"],
+    "jobs": [
+      {
+        "companyName": "IT Lean",
+        "position": "Front-end Developer - Senior",
+        "startDate": "1596931200000",
+        "endDate": null,
+        "type": "Full time"
+      },
+      {
+        "companyName": "IT Lean",
+        "position": "Tech Lead - Senior",
+        "startDate": "1596931200000",
+        "endDate": null,
+        "type": "Full time"
+      },
+      {
+        "companyName": "Incentivador",
+        "position": "Front-end Developer - Pleno",
+        "startDate": "1564617600000",
+        "endDate": "10/02/2020",
+        "type": "Full time"
+      }
+    ],
+    "studies": [
+      {
+        "companyName": "FIAP - Faculdade de Informática e Administração Paulista",
+        "subject": "Sistemas para Internet"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Ewerton Barreto",
+    "avatar": "https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "age": 29,
+    "cep": "04320100",
+    "skills": ["Front-end", "Back-end"],
+    "jobs": [
+      {
+        "companyName": "Alpar - ServiceNow",
+        "position": "Full Stack Developer - Júnior",
+        "startDate": "1596931200000",
+        "endDate": null
+      }
+    ],
+    "studies": [
+      {
+        "companyName": "FIAP - Faculdade de Informática e Administração Paulista",
+        "subject": "Sistemas para Internet"
+      }
+    ]
+  }
+]

@@ -1,0 +1,292 @@
+html{
+  background-color: #101010;
+}
+
+header.details {
+  height: 350px;
+  background-color: #202020;
+  background-image: url("https://wallpapercave.com/wp/wp9164118.jpg");
+  background-blend-mode: overlay;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 400px auto;
+      grid-template-columns: 400px auto;
+      grid-template-areas: "asideApp  mainApp";
+  gap: 32px;
+}
+
+.container aside {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: asideApp;
+  min-height: 100vh;
+  margin-top: -318px;
+}
+
+.container aside .profile-image {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 82px;
+}
+
+.container aside .user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+  margin-top: 32px;
+  margin-left: 24px;
+}
+
+.container aside .user-info div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: .8;
+}
+
+.container aside .user-info div img {
+  width: 24px;
+}
+
+.container aside .user-info div span {
+  color: white;
+  font-size: 20px;
+}
+
+.container aside .user-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  margin-left: 24px;
+  margin-top: 22px;
+}
+
+.container aside .user-tags .tag {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  width: 120px;
+  padding: 6px 0;
+  border-radius: 24px;
+}
+
+.container aside .user-tags .tag.front-end {
+  background-color: #76a2af80;
+}
+
+.container aside .user-tags .tag.designer {
+  background-color: #7baf766b;
+}
+
+.container main {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: mainApp;
+  min-height: 100vh;
+  margin-top: -152px;
+  padding-bottom: 64px;
+}
+
+.container main h1 {
+  color: white;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.container main .tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 32px;
+}
+
+.container main .tabs span {
+  width: 200px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-block: 12px;
+  opacity: .6;
+  cursor: pointer;
+}
+
+.container main .tabs span.active {
+  opacity: 1;
+  border-bottom: 2px solid #6DBCD4;
+  cursor: default;
+}
+
+.container main .user-informations {
+  margin-top: 32px;
+}
+
+.container main .user-informations .information-title {
+  color: white;
+  font-size: 32px;
+  font-weight: 900;
+  margin: 0 14px 0 12px;
+  opacity: .8;
+}
+
+.container main .hobbies-container {
+  margin-top: 32px;
+}
+
+.container main .hobbies-container .hobbies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 67px;
+}
+
+.container main .hobbies-container .hobbies .hobbie {
+  width: 100%;
+  height: 115px;
+  background-color: #161616;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  list-style: none;
+}
+
+.container main .hobbies-container .hobbies .hobbie .icon-wrapper {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(119, 244, 140, 0.6);
+  border-radius: 50%;
+  display: block;
+  margin: -50px auto 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container main .hobbies-container .hobbies .hobbie .icon-wrapper img {
+  width: 86px;
+}
+
+.container main .hobbies-container .hobbies .hobbie h1 {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.container main .horizontal-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 14px;
+}
+
+.container main .horizontal-list li {
+  width: 100%;
+  background-color: #161616;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 18px 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container main .horizontal-list li div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container main .horizontal-list li div h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container main .horizontal-list li div h2 {
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
+  opacity: .6;
+}
+
+.container main .horizontal-list li .item-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+}
+
+.container main .horizontal-list li .item-info .icon-wrapper {
+  width: 42px;
+  height: 42px;
+  background-color: rgba(124, 198, 208, 0.8);
+  border-radius: 50%;
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container main .horizontal-list li .item-info .icon-wrapper img {
+  width: 24px;
+}
+
+.container main .horizontal-list li .time-info {
+  text-align: right;
+}
+
+.container main .experiences-container .information-title, .container main .formations-container .information-title {
+  margin-bottom: 14px !important;
+}
+
+.container main .formations-container .icon-wrapper {
+  background-color: rgba(124, 208, 128, 0.8) !important;
+}
+/*# sourceMappingURL=details.css.map */

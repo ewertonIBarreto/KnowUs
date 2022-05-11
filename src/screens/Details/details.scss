@@ -1,0 +1,319 @@
+header {
+
+    height: 350px;
+    background-color: #202020;
+    background-image: url('https://wallpapercave.com/wp/wp9164118.jpg');
+    background-blend-mode: overlay;
+
+}
+
+.container {
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-template-areas: "asideApp  mainApp";
+    gap: 32px;
+
+    aside {
+
+        grid-area: asideApp;
+        min-height: 100vh;
+        // background-color: blue;
+        margin-top: -318px;
+
+        .profile-image {
+
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 82px;
+
+        }
+
+        .user-info {
+
+            // background-color: red;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 32px;
+            margin-left: 24px;
+
+            div {
+
+                display: flex;
+                gap: 12px;
+                align-items: center;
+                opacity: .8;
+
+                img {
+
+                    width: 24px;
+
+                }
+
+                span {
+
+                    color: white;
+                    font-size: 20px;
+
+                }
+
+            }
+
+        }
+
+        .user-tags {
+
+            display: flex;
+            gap: 12px;
+            margin-left: 24px;
+            margin-top: 22px;
+
+            .tag {
+
+                color: white;
+                font-size: 16px;
+                text-align: center;
+                width: 120px;
+                padding: 6px 0;
+                border-radius: 24px;
+
+                &.front-end {
+
+                    background-color: #76a2af80;
+
+                }
+
+                &.designer {
+
+                    background-color: #7baf766b
+
+                }
+
+            }
+
+        }
+
+    }
+
+    main {
+
+        grid-area: mainApp;
+        min-height: 100vh;
+        // background-color: green;
+        margin-top: -152px;
+        padding-bottom: 64px;
+
+        h1 {
+
+            color: white;
+            font-size: 64px;
+            font-weight: bold;
+
+        }
+
+        .tabs {
+
+            display: flex;
+            margin-top: 32px;
+
+
+            span {
+
+                width: 200px;
+                color: white ;
+                font-size: 20px;
+                text-align: center;
+                padding-block: 12px;
+                // background-color: red;
+                opacity: .6;
+                cursor: pointer;
+
+                &.active {
+
+                    opacity: 1;
+                    border-bottom: 2px solid #6DBCD4;
+                    cursor: default;
+
+                }
+
+            }
+
+        }
+
+        .user-informations {
+
+            margin-top: 32px;
+
+            .information-title {
+
+                color: white;
+                font-size: 32px;
+                font-weight: 900;
+                margin: 0 14px 0 12px;
+                opacity: .8;
+
+            }
+
+        }
+
+        .hobbies-container {
+
+            margin-top: 32px;
+
+            .hobbies {
+
+                display: flex;
+                gap: 20px;
+                justify-content: space-between;
+                margin-top: 67px;
+
+                .hobbie {
+
+                    width: 100%;
+                    height: 115px;
+                    background-color: #161616;
+                    border: 1px solid rgba(255, 255, 255, 0.050);
+                    border-radius: 12px;
+                    list-style: none;
+
+                    .icon-wrapper {
+
+                        width: 100px;
+                        height: 100px;
+                        background-color: rgba(119, 244, 140, 0.6);
+                        border-radius: 50%;
+                        display: block;
+                        margin: -50px auto 12px;
+                        // position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+
+                            width: 86px;
+
+                        }
+
+                    }
+
+                    h1 {
+
+                        font-size: 24px;
+                        font-weight: 500;
+                        text-align: center;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .horizontal-list {
+
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+
+            li {
+
+                width: 100%;
+                background-color: #161616;
+                border: 1px solid rgba(255, 255, 255, 0.050);
+                border-radius: 12px;
+                padding: 18px 32px;
+                display: flex;
+                justify-content: space-between;
+
+                div {
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    h1 {
+
+                        color: white;
+                        font-size: 20px;
+                        font-weight: 400;
+
+                    }
+
+                    h2 {
+
+                        color: white;
+                        font-size: 16px;
+                        font-weight: 100;
+                        opacity: .6;
+
+                    }
+
+                }
+
+                .item-info {
+
+                    display: flex;
+                    gap: 16px;
+
+                    .icon-wrapper {
+
+                        width: 42px;
+                        height: 42px;
+                        background-color: hsla(187, 47%, 65%, 0.8);
+                        border-radius: 50%;
+                        display: block;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+
+                            width: 24px;
+
+                        }
+
+                    }
+
+                }
+
+                .time-info {
+
+                    text-align: right;
+
+                }
+
+            }
+
+        }
+
+        .experiences-container, .formations-container {
+
+            .information-title {
+
+                margin-bottom: 14px !important;
+
+            }
+
+        }
+
+        .formations-container {
+
+            .icon-wrapper {
+
+                background-color: rgba(124, 208, 128, 0.8) !important;
+
+            }
+
+        }
+
+    }
+
+}
