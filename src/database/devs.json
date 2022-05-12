@@ -38,7 +38,7 @@
     "name": "Ivin Rodrigues",
     "avatar": "https://media-exp1.licdn.com/dms/image/C4D03AQHg1RrzXrZ7mw/profile-displayphoto-shrink_200_200/0/1612056394578?e=1655337600&v=beta&t=_PYvaQN9cx2fIvmG9Ox9CVGWP4Eg7QItD5_NlEYClP4",
     "age": 21,
-    "cep": "01315000",
+    "cep": "12400340",
     "skills": ["Front-end", "Design"],
     "jobs": [
       {
@@ -80,8 +80,38 @@
     "jobs": [
       {
         "companyName": "Alpar - ServiceNow",
-        "position": "Full Stack Developer - Júnior",
+        "position": "Consultor Técnico ServiceNow",
         "startDate": "1596931200000",
+        "endDate": null,
+        "type": "Full time"
+      },
+      {
+        "companyName": "Banco Itaú",
+        "position": "Desenvolvedor ServiceNow - Pleno",
+        "startDate": "1564617600000",
+        "endDate": null,
+        "type": "Full time"
+      }
+    ],
+    "studies": [
+      {
+        "companyName": "FIAP - Faculdade de Informática e Administração Paulista",
+        "subject": "Sistemas para Internet"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Julia Lopes",
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4D03AQHxE86wcIBKWg/profile-displayphoto-shrink_800_800/0/1607839963450?e=1657756800&v=beta&t=cdamLlgBIUvUc0oHvmeBFqVzgpQoOwqjl151b4jtEP0",
+    "age": 22,
+    "cep": "15370496",
+    "skills": ["Front-end", "Back-end"],
+    "jobs": [
+      {
+        "companyName": "Empresa - Teste",
+        "position": "Full Stack Developer",
+        "startDate": "1564617600000",
         "endDate": null
       }
     ],
